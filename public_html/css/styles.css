@@ -1,0 +1,180 @@
+body {
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+}
+
+#container {
+  width: 800px;
+  margin: 30px auto;
+}
+
+.userinfo {
+  text-align: center;
+  font-size: 14px;
+  margin: 0 0 20px 0;
+}
+
+form {
+  text-align: center;
+}
+form#logout {
+  text-align: right;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+input[type=text],
+input[type=password] {
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.btn {
+  width: 100px;
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+  background: #00aaff;
+  box-shadow: 0 3px 0 #0088cc;
+  cursor: pointer;
+  margin: 0 auto 15px;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.fs12 {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.err {
+  color: #ff3d00;
+  font-weight: bold;
+  font-size: 13px;
+}
+h1 {
+  font-size: 16px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+ul > li {
+  padding: 3px 0;
+}
+
+.row {
+  margin-bottom: 2em;
+}
+
+.newline {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* 検索コーナー */
+.search {
+  margin: 0.5em 1em;
+  display: block;
+  width: 45%;
+  float:left;
+  text-align: center;
+}
+.witdh_full {
+  width: 100%;
+}
+.width_enq_table {
+  width: 60%!important;
+  margin: 1.5em auto!important;
+}
+
+
+.text_center {
+  text-align: center;
+}
+.text_align_right {
+  text-align: right;
+}
+.text_align_left {
+  text-align: left;
+}
+.margin {margin-top: 1em;}
+
+li.strong>a {
+  font-weight: bold;
+  color: white!important;
+  background-color: #70b3ec!important;
+
+}
+
+h3 {
+  font-size: 20px!important;
+}
+hr {
+  margin-top: 2px!important;
+  margin-bottom: : 2px!important;
+}
+
+/* テキスト色 */
+.color_red {
+  color: red;
+}
+
+/* 背景色 */
+/* .bg_user {
+  -webkit-background-size: 10px 10px;
+  -moz-background-size: 10px 10px;
+  background-size: 10px 10px;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, color-stop(.5, #fffafa), color-stop(.5, transparent), to(transparent));
+  background-image: -moz-linear-gradient(left, #fffafa 50%, transparent 50%, transparent);
+  background-image: -o-linear-gradient(left, #fffafa 50%, transparent 50%, transparent);
+  background-image: linear-gradient(left, #fffafa 50%, transparent 50%, transparent);
+} */
+
+/* admin_index.phpのリスト テーブル設定*/
+/* table {
+  table-layout: fixed;
+}
+
+.table_th_color_setting {
+  opacity: 1;
+  background: #0188cc!important;
+  color: white;
+  font-weight: normal!important;
+}
+.table_th_color_setting:hover {
+  opacity: 1;
+  background: #0188cc!important;
+  color: white;
+  font-weight: normal!important;
+} */
+
+.radio {
+  margin-left : 1em;
+}
+label {
+    cursor: pointer;
+}
+
+.margin_bottom_1em {
+  margin-bottom: 1em;
+}
+
+.submit_success {
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+  background-color: orange;
+  padding: 0.3em;
+  margin: 1em auto;
+  display: block;
+  width: 8em;
+  border-radius: 0.3em;
+}
+
+
+.premiere_bg {
+  background: skyblue;
+  padding: 2em
+}
