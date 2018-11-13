@@ -30,7 +30,7 @@ date_default_timezone_set('Asia/Tokyo');
 
 // XSS
 // IEがコンテンツを sniff してHTML以外のものをHTML扱いしてしまうことを防ぐ
-<? header("X-Content-Type-Options: nosniff"); ?>
+header("X-Content-Type-Options: nosniff");
 //これだけだと不十分で httpd.confに以下を追加する
 // Header always set X-Content-Type-Options nosniff
 
