@@ -27,3 +27,13 @@ date_default_timezone_set('Asia/Tokyo');
 
 // ログアウトタイムの設定
 // $auto_logout_time = 30;
+
+// XSS
+// IEがコンテンツを sniff してHTML以外のものをHTML扱いしてしまうことを防ぐ
+<? header("X-Content-Type-Options: nosniff"); ?>
+//これだけだと不十分で httpd.confに以下を追加する
+// Header always set X-Content-Type-Options nosniff
+
+// XSS その２
+// X-XSS-Protection 応答ヘッダーは、Internet Explorer や Chrome、Safari においてクロスサイトスクリプティング(XSS) 攻撃を読み込むことを防止するための設定
+header("X-XSS-Protection: 1; mode=block");
